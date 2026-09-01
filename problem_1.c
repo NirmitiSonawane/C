@@ -1,10 +1,15 @@
-/* Write a C program to calculate the area of a rectangle:a. Using hard coded inputs.*/
+// Write a program to print multiplication table of a given number n.
 
 #include <stdio.h>
 
-int main(){
-    int l = 4;
-    int b = 5;
-    printf("Area of rectangle is:%d",l*b);
+int main()
+{
+    int n;
+    printf("Enter Value:");
+    scanf("%d", &n);
+    for (int i = 1; i <= 10; i++)
+    {
+        printf("%d\n", n * i);
+    }
     return 0;
 }
